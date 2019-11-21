@@ -1,0 +1,13 @@
+
+<h1>
+{{$ctrl.nombre}}
+</h1>
+<br>
+{{$ctrl.mascotaDesc.nombre}} , {{$ctrl.mascotaDesc.raza}} ,  {{$ctrl.mascotaDesc.edad}}   <br>
+
+<button ng-click="$ctrl.mascota($ctrl)">info</button>
+
+<img src="{{$ctrl.mascotaurl}}" />
+<br>
+
+<home-component user="pepe"  ></home-component>
