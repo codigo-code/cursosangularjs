@@ -2,7 +2,7 @@
   "_args": [
     [
       "angular-animate@1.7.5",
-      "C:\\dev\\bbva-fnet\\curso\\dia1"
+      "C:\\dev\\bbva-fnet\\curso\\cursosangularjs"
     ]
   ],
   "_from": "angular-animate@1.7.5",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.7.5.tgz",
   "_spec": "1.7.5",
-  "_where": "C:\\dev\\bbva-fnet\\curso\\dia1",
+  "_where": "C:\\dev\\bbva-fnet\\curso\\cursosangularjs",
   "author": {
     "name": "Angular Core Team",
     "email": "angular-core+npm@google.com"

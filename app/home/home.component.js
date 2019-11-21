@@ -4,10 +4,15 @@ angular.
   module('home').
   component('homeComponent', {
     templateUrl: 'home/home.template.html',
-    controller: 
-      function NeorisController() {
-         this.nombre='Empleado Modelo'
-        console.log(this);
+    bindings:{
+      user:'@',
+      num:'@'
+    },
+    controller:
+      function HomeController() {
+        this.nombre = 'Mati Fojgiel';
+
+        console.log(this.user);
       }
-    
+
   });

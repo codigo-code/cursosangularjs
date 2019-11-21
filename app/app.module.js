@@ -3,6 +3,8 @@
 angular.module('neorisApp', [
     'ngRoute',
     'neoris',
-    'home'
+    'mascota',
+    'home',
+    'core'
   ]);
   
