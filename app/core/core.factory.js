@@ -8,5 +8,9 @@ angular.
         service.usuarios = function(){
             return $http.get('https://jsonplaceholder.typicode.com/todos/1');
         }
+
+        service.algo=function(){
+            return "hola mundo";
+        }
         return service;
     });

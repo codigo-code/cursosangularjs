@@ -3,8 +3,13 @@
 angular.
   module('core').
   service('CoreService', function () {
+    // bloque de codigo!!!
+
     return {
-      nombre:'sarasa',
-      apellido:'pepino'
+      nombre: 'Soy un valor que viene del servico muejeje',
+      apellido: 'pepino',
+      sarasa: function () {
+        return 1;
+      }
     };
   });

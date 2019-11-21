@@ -15,6 +15,9 @@ angular.
         when('/mascota', {
           template: '<mascota-component></home-component>'
         }).
+        when('/formulario', {
+          template: '<formulario-component></formulario-component>'
+        }).
         otherwise('/home');
     }
   ]);

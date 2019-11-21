@@ -5,6 +5,9 @@ angular.module('neorisApp', [
     'neoris',
     'mascota',
     'home',
-    'core'
+    'core',
+    'formulario',
+    'muestro'
+    
   ]);
   

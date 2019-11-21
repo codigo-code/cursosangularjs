@@ -1,0 +1,7 @@
+<h1>{{$ctrl.nombre}}</h1>
+<input type="text" ng-model="$ctrl.nombre" placeholder="ingrese el nombre" /><br>
+<input type="text" ng-model="$ctrl.apellido" placeholder="ingrese el apellido" /><br>
+<input type="text" ng-model="$ctrl.edad" placeholder="ingrese la edad" /><br>
+<button ng-click="$ctrl.mostrar()">mostrar datos </button>
+
+<muestro-component obj="{{$ctrl.obj}}"> </muestro-component>
